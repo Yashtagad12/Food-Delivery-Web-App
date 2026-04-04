@@ -1,0 +1,131 @@
+.header {
+  background: url('src/assets/header-img.jpg') no-repeat center/cover;
+  height: 40vw;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5vw;
+  max-width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+  font-weight: 400;
+  color: white;
+  font-size: max(4.5vw, 22px);
+}
+
+.header-contents p {
+  color: white;
+  font-size: max(1vw, 12px);
+}
+
+.header-contents button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  border: none;
+  color: #000;
+  font-size: max(1vw, 13px);
+  font-weight: 500;
+  padding: max(0.8vw, 10px) max(2.3vw, 23px);
+  border-radius: 50px;
+  cursor: pointer;
+  background: white;
+  transition: background 0.2s, color 0.2s;
+}
+
+.header-contents button:hover {
+  background: #f0f0f0;
+  color: #e5611f;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header-contents {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 50vw;
+  }
+  .header-contents button {
+    font-size: 10px;
+  }
+
+  .header-contents {
+    max-width: 75%;
+    gap: 2vw;
+  }
+
+  .header-contents h2 {
+    font-size: max(5vw, 20px);
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .header {
+    height: 70vw;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+  .header-contents {
+    max-width: 88%;
+    gap: 3vw;
+  }
+
+  .header-contents h2 {
+    font-size: max(5.5vw, 18px);
+  }
+
+  .header-contents p {
+    font-size: max(2vw, 11px);
+  }
+}
+
+@media (max-width: 360px) {
+
+  .header-contents {
+    max-width: 92%;
+  }
+
+  .header-contents h2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    height: 100vw;
+  }
+
+}

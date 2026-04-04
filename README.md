@@ -18,7 +18,6 @@
 ## 📌 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Live Demo](#-live-demo)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
@@ -42,12 +41,6 @@
 The application is built as a **multi-page single-page application (SPA)** using React Router DOM for client-side navigation, React Context API for global state management, and pure CSS3 for all styling and animations — with no external UI libraries used for layout or components.
 
 Every page and component has been carefully designed to be **fully responsive** across all screen sizes, from small phones (320px) to large desktop monitors (1920px+).
-
----
-
-## 🌐 Live Demo
-
-> 🔗 [Click here to view the live demo](https://your-deployment-link.com)
 
 ---
 
@@ -152,7 +145,7 @@ Every page and component has been carefully designed to be **fully responsive** 
 ## 📁 Project Structure
 
 ```
-tomato-food-delivery/
+food-delivery-app/
 │
 ├── public/
 │   └── vite.svg
@@ -365,7 +358,7 @@ Make sure you have the following installed:
 git clone https://github.com/Yashtagad12/Food-Delivery-Web-App
 
 # 2. Navigate into the project directory
-cd tomato-food-delivery
+cd food-delivery-app
 
 # 3. Install all dependencies
 npm install

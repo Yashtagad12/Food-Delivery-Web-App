@@ -135,25 +135,25 @@ Get a glimpse of the Tomato food delivery app UI across different pages:
 
 ### 🏠 Home Page
 
-![Home Page](src/assets/Screenshorts/1.jpg)
+![Home Page](src/assets/Screenshots/1.jpg)
 
 <br />
 
 ### 📋 Menu Page
 
-![Menu Page](src/assets/Screenshorts/2.jpg)
+![Menu Page](src/assets/Screenshots/2.jpg)
 
 <br />
 
 ### 🛒 Cart Page
 
-![Cart Page](src/assets/Screenshorts/3.jpg)
+![Cart Page](src/assets/Screenshots/3.jpg)
 
 <br />
 
 ### 📞 Contact Us Page
 
-![Contact Us Page](src/assets/Screenshorts/4.jpg)
+![Contact Us Page](src/assets/Screenshots/4.jpg)
 
 ---
 

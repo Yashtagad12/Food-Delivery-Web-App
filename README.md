@@ -127,6 +127,36 @@ Every page and component has been carefully designed to be **fully responsive** 
 
 ---
 
+## 📸 Screenshots
+
+Get a glimpse of the Tomato food delivery app UI across different pages:
+
+<br />
+
+### 🏠 Home Page
+
+![Home Page](src/assets/Screenshots/1.jpg)
+
+<br />
+
+### 📋 Menu Page
+
+![Menu Page](src/assets/Screenshots/1.jpg)
+
+<br />
+
+### 🛒 Cart Page
+
+![Cart Page](src/assets/Screenshots/1.jpg)
+
+<br />
+
+### 📞 Contact Us Page
+
+![Contact Us Page](src/assets/Screenshots/1.jpg)
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology           | Version  | Purpose                                     |

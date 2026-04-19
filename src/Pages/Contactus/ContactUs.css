@@ -355,7 +355,7 @@
     align-items: center;
     gap: 12px;
     font-size: 16px;
-    color: var(--tomato-orange);
+    color: black;
 }
 
 .list-bullet {
